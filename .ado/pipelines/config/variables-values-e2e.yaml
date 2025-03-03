@@ -4,7 +4,7 @@ variables:
 
 # Resource prefix for this environment
 - name:  'prefix'
-  value: 'new2xe'          # <===== CHANGE THIS! Must not be longer than 6 characters! Needs to be a unique prefix
+  value: 'ngh2e'          # <===== CHANGE THIS! Must not be longer than 6 characters! Needs to be a unique prefix
 
 # Host-encryption for compute resources (needs to be enabled on subscription-level)
 # https://learn.microsoft.com/en-us/azure/virtual-machines/linux/disks-enable-host-based-encryption-cli
@@ -22,7 +22,7 @@ variables:
 - name:  'terraformResourceGroup'
   value: 'terraformstate-rg'      # <===== CHANGE THIS VALUE IF NEEDED
 - name:  'terraformStorageAccount'
-  value: '$(prefix)sta634hxue'  # Needs to be a globally unique name
+  value: '$(prefix)sdth328xue'  # Needs to be a globally unique name
 
 # Other settings
 - name:  'contactEmail'
