@@ -22,7 +22,7 @@ param
   [int] $loadTestDurationSeconds,
 
   # Load Test engine instances
-  [int] $engineInstances = "1",
+  [int] $engineInstances = "2",
 
   # Load Test data plane endpoint
   [Parameter(Mandatory=$true)]
