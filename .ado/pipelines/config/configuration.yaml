@@ -48,7 +48,7 @@ variables:
 - name: 'azureLoadTestLocation'
   value: 'uksouth'
 - name: 'azureLoadTestEngineInstances'
-  value: 1
+  value: 2
 - name: 'azureLoadTestDurationSeconds'
   value: 660
 - name: 'azureLoadTestUserThreads'
